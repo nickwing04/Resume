@@ -7,7 +7,7 @@ selectElement(".menu-icon").addEventListener("click", () => {
     selectElement(".nav-list").classList.toggle("active");
     selectElement(".menu-icon").classList.toggle("toggle")
 
-    navLinks.forEach((link, index) => {
+    navLinks.forEach((link, index) => {7
         if (link.style.animation){
             link.style.animation = ""
         }else{
